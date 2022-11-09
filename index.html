@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/db32212d2c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="todo-list-container">
+        <!-- <div class="todo-addition"> -->
+            <div class="input-holder">
+                <form class="todo-form">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <input  class="input-field;" type="text" name="todo" required>
+                    <button type="submit"><i class="fa-solid fa-circle-plus"></i></button>
+                </form>
+            </div>
+        <!-- </div> -->
+        <div class="complete-and-clear-task">
+            <div style="display:inline-block">
+                <i class="fa-solid fa-check-double"></i>
+                <span>Complete all tasks</span>
+            </div>
+            <span style="display:inline-block">clear complete</span>
+        </div>
+        <div class="task-list">
+            <ul>
+                <!-- <li>
+                    <span>abc</span>
+                    <div class="actions-on-list">
+                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-trash"></i>    
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="task-filter">
+            <div class="task-left-container">
+                 <span class="task-left-count">1</span>
+                  <span>tasks left</span>  
+            </div>
+            <div class="tasks-data-container">
+                <span>All</span>
+                <span>Uncompleted</span>
+                <span>Completed</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
