@@ -10,28 +10,30 @@
     <title>Document</title>
 </head>
 <body>
-
+    <div class="header-bar">
+        <span id="todo-app-name">Todo App</span>
+    </div>
     <div class="todo-list-container">
         <!-- <div class="todo-addition"> -->
             <div class="input-holder">
                 <form class="todo-form">
-                    <i class="fa-solid fa-clipboard-list"></i>
-                    <input  class="input-field;" type="text" name="todo" required>
-                    <button type="submit"><i class="fa-solid fa-circle-plus"></i></button>
+                    <i class="fa-solid fa-clipboard-list clipboard-icon"></i>
+                    <input  class="input-field" type="text" name="todo" placeholder="Add Todo" required>
+                    <button id="submit-button" type="submit"><i id="circle-plus-icon" class="fa-solid fa-circle-plus"></i></button>
                 </form>
             </div>
         <!-- </div> -->
-        <div class="complete-and-clear-task">
+        <!-- <div class="complete-and-clear-task">
             <div style="display:inline-block">
                 <i class="fa-solid fa-check-double"></i>
-                <span>Complete all tasks</span>
+                <span class="complete-all-tasks">Complete all tasks</span>
             </div>
             <span style="display:inline-block">clear complete</span>
-        </div>
+        </div> -->
         <div class="task-list">
             <ul>
                 <!-- <li>
-                    <span>abc</span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                     <div class="actions-on-list">
                         <i class="fa-solid fa-check"></i>
                         <i class="fa-solid fa-trash"></i>    
@@ -45,9 +47,9 @@
                   <span>tasks left</span>  
             </div>
             <div class="tasks-data-container">
-                <span>All</span>
-                <span>Uncompleted</span>
-                <span>Completed</span>
+                <span class="all-todos btn info">All</span>
+                <span class="uncompleted-todos btn danger">Uncompleted</span>
+                <span class="completed-todos btn success">Completed</span>
             </div>
         </div>
     </div>
