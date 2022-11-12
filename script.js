@@ -120,7 +120,7 @@ function createElement(value, currIndex, completionStatus){
     });
 
     var span = document.createElement("span");
-    span.setAttribute("style","width: 72%; padding: 5px 5px;");
+    span.setAttribute("style","width: 72%; padding: 0.5rem 0.5rem;");
     var node = document.createTextNode(value);
     span.appendChild(node);
     li.appendChild(span);
