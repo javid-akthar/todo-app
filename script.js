@@ -27,7 +27,7 @@ allFilter.addEventListener('click', (event) => {
     renderTodos(todos);
 });
 
-// method to list both uncompleted tasks
+// method to list uncompleted tasks
 uncompleted.addEventListener('click', (event) => {
     listAll = false;
     listUncompleted = true;
@@ -39,7 +39,7 @@ uncompleted.addEventListener('click', (event) => {
     renderTodos(todos);
 });
 
-// method to list both completed tasks
+// method to list completed tasks
 completed.addEventListener('click', (event) => {
     listAll = false;
     listUncompleted = false;
